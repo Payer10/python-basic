@@ -1,0 +1,25 @@
+print('Welcome!')
+print('+, Addition')
+print('-, Subtraction')
+print('*, Multifiacation')
+print('/, Divition')
+
+Option = input('Select an option to calculate')
+
+Number1 = int(input('Input your first number'))
+Number2 = int(input('Input your second number'))
+
+if Option == '+':
+    print('Your result is',Number1 + Number2)
+
+elif Option == '-':
+    print('Your result is',Number1 - Number2)
+
+elif Option == '*':
+    print('Your result is',Number1 * Number2)
+
+elif Option == '/':
+    print('Your result is',Number1 / Number2)
+
+else:
+    print('Invalid Option!')
